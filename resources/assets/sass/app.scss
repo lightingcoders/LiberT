@@ -1,0 +1,110 @@
+// Import Vendors
+@import "vendor";
+
+//  ========================================
+// 	Custom Bootstrap
+// 	----------------------------------------
+
+// Core variables and mixins
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/mixins";
+
+@import "bootstrap/mixins";
+
+// Load variable overrides
+@import "core/variables/global";
+@import "core/variables/components";
+
+// Core CSS
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+@import "bootstrap/forms";
+@import "bootstrap/buttons";
+
+// Components
+@import "bootstrap/animation";
+@import "bootstrap/dropdown";
+@import "bootstrap/navbar";
+@import "bootstrap/card";
+@import "bootstrap/breadcrumb";
+@import "bootstrap/pagination";
+@import "bootstrap/badge";
+@import "bootstrap/nav";
+@import "bootstrap/alert";
+@import "bootstrap/media";
+@import "bootstrap/progress";
+@import "bootstrap/list-group";
+
+// Components w/ JavaScript
+@import "bootstrap/modal";
+@import "bootstrap/popover";
+
+// Utility classes
+@import "bootstrap/utilities";
+
+
+//  ========================================
+// 	Color Mixins
+// 	----------------------------------------
+
+// Main color mixins
+@import "core/mixins/hex2rgb";
+@import "~bootstrap/scss/mixins/gradients";
+
+// Color system, always load last
+@import "core/palette";
+
+
+//  ========================================
+// 	App Variables & Mixins
+// 	----------------------------------------
+
+// Main variables and mixins
+@import "~bootstrap/scss/functions";
+@import "bootstrap/mixins";
+@import "bootstrap/mixins";
+
+// Main variables and mixins overrides
+@import "core/variables/global";
+@import "core/variables/components";
+@import "core/mixins/transitions";
+
+// Main
+@import "core/layouts/content";
+@import "core/layouts/sidebar";
+@import "core/layouts/horizontal";
+@import "core/layouts/footer";
+@import "core/navigation";
+@import "core/menu";
+
+// Components
+@import "components/helper";
+@import "components/avatar";
+@import "components/search";
+@import "components/chart";
+@import "components/callout";
+@import "components/bootstrap-social";
+@import "components/administration";
+
+// Custom Styles
+@import "styles/preloader";
+@import "styles/animate/animate";
+
+@import "styles/menu/perfect-scrollbar/ps-custom";
+@import "styles/ui/breakpoints";
+@import "styles/editors/editors";
+
+@import "styles/forms/tags/basic-input";
+@import "styles/forms/select2/select2";
+@import "styles/tables/datatables";
+@import "styles/pagination/pagination";
+
+@import "styles/forms/icheck/custom.css";
+@import "styles/forms/validation/form-validation";
+@import "styles/forms/wizard";
+
+// Global Pages
+@import "pages/project";
