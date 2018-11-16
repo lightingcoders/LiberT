@@ -16,7 +16,7 @@
             </li>
 
             <li class="navigation-header">
-                <span>{{__('MARKETPLACE')}}</span>
+                <span>LiberT Market</span>
             </li>
 
             <li>

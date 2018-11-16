@@ -27,21 +27,11 @@
     <div class="image-container set-full-height" style="background-image: url('{{asset('vendor/installer/img/wizard.jpg')}}')">
         <!--   Creative Tim Branding   -->
         <a href="{{config('installer.author.portfolio')}}">
-            <div class="logo-container">
-                <div class="logo">
-                    <img src="{{config('installer.author.avatar')}}" width="60" height="60">
-                </div>
-                <div class="brand">
-                    <p><strong>{{config('installer.author.name')}}</strong> <br/> <small>{{__('Developer')}}</small></p>
-                </div>
-            </div>
+       
         </a>
 
         <!--  Made With Material Kit  -->
-        <a href="{{config('installer.link')}}" class="made-with-mk">
-            <div class="brand"><i class="fa fa-shopping-cart"></i></div>
-            <div class="made-with">{{__('Purchase Now')}}</div>
-        </a>
+      
 
         <!--   Big container   -->
         <div class="container">

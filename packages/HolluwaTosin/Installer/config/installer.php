@@ -12,7 +12,7 @@ return [
 
     'link' => '',
 
-    'documentation' => 'http://products.oluwatosin.me/cryptoexchange/docs',
+    'documentation' => 'https://www.fiverr.com/ixenox',
 
     'thumbnail' => 'http://oluwatosin.me/cdn/images/cryptoexchange/logo.png',
 
@@ -24,7 +24,7 @@ return [
     'author' => [
         'name' => 'HolluwaTosin360',
 
-        'portfolio' => 'https://codecanyon.net/user/holluwatosin360/portfolio',
+        'portfolio' => 'https://www.fiverr.com/ixenox',
 
         'avatar' => 'http://oluwatosin.me/avatar.jpg',
     ],
